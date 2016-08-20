@@ -10,5 +10,5 @@
 
 
 ### CR:
-* 文章可以使用<article>语义化
-* 增加使用<form>
+* 文章可以使用&lt;article>语义化
+* 增加使用&lt;form>
