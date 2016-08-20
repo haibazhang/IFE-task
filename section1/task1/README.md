@@ -9,6 +9,6 @@
 * HTML合法性：[HTML Validators](https://validator.w3.org/#validate_by_input)
 
 
-### CR:
+### Code Review:
 * 文章可以使用&lt;article>语义化
 * 增加使用&lt;form>
