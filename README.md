@@ -2,10 +2,25 @@
 
 
 #### 说明
-* 一些简单任务略过；
+* 一些简单任务可能略过；
 * 每个任务目录下的README.md文件记录学习所得；
 
-#### 做完任务做常规检查
-* 代码语法检查（符合一个具体标准，使用工具如：[HTML Validators](https://validator.w3.org/#validate_by_upload)）
+#### 自测
+* 代码语法检查
+<br/>
+> 符合一个具体标准，使用工具如：<br/>[HTML Validators](https://validator.w3.org/#validate_by_upload) <br/>[CSS Validators](http://www.css-validator.org/#validate-by-input)
+
 * 代码风格检查（统一风格）
 * Code Review（直接对比高分答案的代码进行改进和学习）
+
+
+
+#### 文档和视频
+* [MDN 良性文档](https://developer.mozilla.org/en-US/search)
+* [CSS-Tricks 干货满满](https://css-tricks.com/)
+* [Udacity视频 学习web开发正确姿势](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
+* [box-shadow工具]([box-shadow](http://www.cssmatic.com/box-shadow))
+* [Google Font](https://www.google.com/fonts)
+
+
+#### 书籍

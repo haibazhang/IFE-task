@@ -7,6 +7,7 @@
     <style>
 
       body {
+        font-family:'Microsoft YaHei';
         background-color: lightgray;
         margin: 0;
       }
@@ -14,9 +15,10 @@
       .article {
         background-color: white;
         box-sizing: border-box;
-        margin: 10px;
-        padding: 10px;
+        margin: 16px;
+        padding: 16px;
         border: 1px solid gray;
+        border-radius: 8px;
         box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
       }
 
@@ -24,8 +26,12 @@
         margin: 0;
       }
 
-      figcaption {
+      figure figcaption {
         text-align: center;
+      }
+
+      img {
+        max-width: 400px;
       }
 
       .figureBox {
@@ -99,10 +105,10 @@
         width: 96%;
         height: 40px;
         border: 0;
-        border-radius: 8px;
+        border-radius: 6px;
         font-size: 16px;
         color: white;
-        background-color: #0063dc;
+        background-color: dodgerblue;
       }
 
       footer{
@@ -116,14 +122,14 @@
       }
 
     </style>
-    
+
 </head>
 <body>
   <article id="article1" class="article">
     <h2>Article1 元素</h2>
     <p>The HTML &lt;p> element<p>
     <p>The HTML &lt;p> element (or HTML Paragraph Element) represents a paragraph of text. Paragraphs are usually represented in visual media as blocks of text that are separated from adjacent blocks by vertical blank space and/or first-line indentation.</p>
-    <a href="https://developer.mozilla.org/">MDN<br/><img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MDN logo"></a>
+    <a href="https://developer.mozilla.org/">MDN<br/><img src="https://cdn.css-tricks.com/wp-content/uploads/2016/08/factory-about-us-margaret-river.jpg" alt="CSS-Tricks logo"></a>
     <p>For &lt;img> element, 'alt' attribute defines the <strong>alternative text</strong> describing the image. Users will see this text displayed if the image URL is wrong, the image is not in one of the supported formats, or if the image is not yet downloaded.</p>
   </article>
 
@@ -131,26 +137,26 @@
     <h2>Article2 图片</h2>
     <figure>
       <div class="figureBox">
-      <figcaption>picture1</figcaption>
-      <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MDN logo">
+      <figcaption>Picture1</figcaption>
+      <img src="https://cdn.css-tricks.com/wp-content/uploads/2016/08/factory-about-us-margaret-river.jpg" alt="CSS-Tricks logo">
       </div>
     </figure>
     <figure>
       <div class="figureBox">
-      <figcaption>picture2</figcaption>
-      <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MDN logo">
+      <figcaption>Picture2</figcaption>
+      <img src="https://cdn.css-tricks.com/wp-content/uploads/2016/08/factory-about-us-margaret-river.jpg" alt="CSS-Tricks logo">
       </div>
     </figure>
     <figure>
       <div class="figureBox">
-      <figcaption>picture3</figcaption>
-      <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MDN logo">
+      <figcaption>Picture3</figcaption>
+      <img src="https://cdn.css-tricks.com/wp-content/uploads/2016/08/factory-about-us-margaret-river.jpg" alt="CSS-Tricks logo">
       </div>
     </figure>
     <figure>
       <div class="figureBox">
-      <figcaption>picture4</figcaption>
-      <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MDN logo">
+      <figcaption>Picture4</figcaption>
+      <img src="https://cdn.css-tricks.com/wp-content/uploads/2016/08/factory-about-us-margaret-river.jpg" alt="CSS-Tricks logo">
       </div>
     </figure>
   </article>
