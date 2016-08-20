@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="cmn-Hans">
+<head>
+    <title>IFE-task1_2</title>
+    <meta name="author" content="Tinjer">
+    <meta charset="utf-8">
+    <style>
+
+      body {
+        background-color: lightgray;
+        margin: 0;
+      }
+
+      .article {
+        background-color: white;
+        box-sizing: border-box;
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid gray;
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+      }
+
+      figure {
+        margin: 0;
+      }
+
+      figcaption {
+        text-align: center;
+      }
+
+      .figureBox {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid gray;
+        display: inline-block;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid black;
+      }
+      tr {
+        border: 1px solid black;
+      }
+      th {
+        color: white;
+        background-color: black;
+        border: 1px solid black;
+      }
+      td {
+        border: 1px solid black;
+      }
+
+      .noBorderTD {
+        border: 0;
+      }
+      #lastTR {
+        background-color: gray;
+      }
+
+      label {
+        box-sizing: border-box;
+        width: 180px;
+        text-align: right;
+        padding-right: 10px;
+        display: inline-block;
+        font-size: 14px;
+        margin-top: 8px;
+      }
+      .widthAuto {
+          width: auto;
+      }
+
+      .tip {
+        width: auto;
+        margin-left: 184px;
+        color: gray;
+        font-size: 12px;
+      }
+
+      input {
+        margin-top: 8px;
+      }
+      textarea {
+        margin-top: 8px;
+        vertical-align: top;
+      }
+
+      #inputDiv {
+        margin-left: 15%;
+        margin-right: 15%;
+      }
+
+      #submitButton {
+        margin-top: 10px;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+        height: 40px;
+        border: 0;
+        border-radius: 8px;
+        font-size: 16px;
+        color: white;
+        background-color: #0063dc;
+      }
+
+      footer{
+          width:100%;
+          height:60px;
+          line-height:60px;
+          background:black;
+          color:white;
+          text-align:center;
+          font-size:14px;
+      }
+
+    </style>
+    
+</head>
+<body>
+  <article id="article1" class="article">
+    <h2>Article1 元素</h2>
+    <p>The HTML &lt;p> element<p>
+    <p>The HTML &lt;p> element (or HTML Paragraph Element) represents a paragraph of text. Paragraphs are usually represented in visual media as blocks of text that are separated from adjacent blocks by vertical blank space and/or first-line indentation.</p>
+    <a href="https://developer.mozilla.org/">MDN<br/><img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MDN logo"></a>
+    <p>For &lt;img> element, 'alt' attribute defines the <strong>alternative text</strong> describing the image. Users will see this text displayed if the image URL is wrong, the image is not in one of the supported formats, or if the image is not yet downloaded.</p>
+  </article>
+
+  <article id="article2" class="article">
+    <h2>Article2 图片</h2>
+    <figure>
+      <div class="figureBox">
+      <figcaption>picture1</figcaption>
+      <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MDN logo">
+      </div>
+    </figure>
+    <figure>
+      <div class="figureBox">
+      <figcaption>picture2</figcaption>
+      <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MDN logo">
+      </div>
+    </figure>
+    <figure>
+      <div class="figureBox">
+      <figcaption>picture3</figcaption>
+      <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MDN logo">
+      </div>
+    </figure>
+    <figure>
+      <div class="figureBox">
+      <figcaption>picture4</figcaption>
+      <img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MDN logo">
+      </div>
+    </figure>
+  </article>
+
+  <article id="article3" class="article">
+    <h2>Article3 表格</h2>
+    <ol>
+      <li><a href="https://www.google.com">Google</a></li>
+      <li><a href="https://www.google.com">Google</a></li>
+      <li><a href="https://www.google.com">Google</a></li>
+      <li><a href="https://www.google.com">Google</a></li>
+    </ol>
+    <p>Table</p>
+    <table>
+      <tr>
+        <th>表头</th>
+        <th>表头</th>
+        <th>表头</th>
+      </tr>
+      <tr>
+        <td>内容1</td>
+        <td>内容2</td>
+        <td><a href="#article1">文章1</a></td>
+      </tr>
+      <tr>
+        <td>内容3</td>
+        <td>内容4</td>
+        <td><a href="#article2">文章2</a></td>
+      </tr>
+      <tr>
+        <td>内容5</td>
+        <td>内容6</td>
+        <td><a href="#article3">文章3</a></td>
+      </tr>
+      <tr>
+        <td>内容7</td>
+        <td>内容8</td>
+        <td><a href="#article4">文章4</a></td>
+      </tr>
+      <tr id="lastTR">
+        <td class="noBorderTD">总计</td>
+        <td class="noBorderTD">1024</td>
+        <td class="noBorderTD"></td>
+      </tr>
+    </table>
+  </article>
+
+  <article id="article4" class="article">
+    <h2>Article4 表单与控件</h2>
+    <form action="http://action.php" method="post" enctype="multipart/form-data">
+      <div id="inputDiv">
+        <label for="_email">请输入邮箱地址</label>
+        <input type="email" id="_email" placeholder="请输入邮箱地址" required/>
+        <p class="tip">邮件地址请按要求格式输入</p>
+
+        <label for="_password">请输入密码</label>
+        <input type="password" id="_password" placeholder="请输入密码" required/>
+        <br/>
+        <label for="_repassword">请重复输入密码</label>
+        <input type="password" id="_repassword" placeholder="请重复输入密码" required/>
+        <p class="tip">密码请为6~16位英文或数字</p>
+
+        <label>性别</label>
+        <input type="radio" id="_male" required>
+        <label for="_male" class="widthAuto">男</label>
+        <input type="radio" id="_female">
+        <label for="_female" class="widthAuto">女</label>
+        <br/>
+        <label for="_city">城市</label>
+        <select id="_city">
+          <option value="1">北京</option>
+          <option value ="2">上海</option>
+          <option value="3">广州</option>
+          <option value="4">深圳</option>
+        </select>
+        <br/>
+        <label>爱好</label>
+        <input type="checkbox" id="_sports">
+        <label for="_sports" class="widthAuto">运动</label>
+        <input type="checkbox" id="_art">
+        <label for="_art" class="widthAuto">艺术</label>
+        <input type="checkbox" id="_science">
+        <label for="_science" class="widthAuto">科学</label>
+        <br/>
+        <label for="_intro">个人描述</label>
+        <textarea rows="2" cols="60" id="_intro"></textarea>
+      </div>
+      <input id="submitButton" type="submit" value="确认提交">
+    </form>
+  </article>
+  <footer>
+    <p>版权所有&copy;</p>
+  </footer>
+</body>
+</html>
