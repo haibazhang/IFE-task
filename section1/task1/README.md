@@ -6,4 +6,9 @@
 * 控件绑定Label使用id<=>for
 * 编辑效率：比如如何快速重复复制一段
 * 查资料：MDN/Google
-* HTML合法性：[HTML Validators](https://validator.w3.org/#validate_by_upload)
+* HTML合法性：[HTML Validators](https://validator.w3.org/#validate_by_input)
+
+
+### CR:
+* 文章可以使用<article>语义化
+* 增加使用<form>
