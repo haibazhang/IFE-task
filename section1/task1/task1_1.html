@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+    <title></title>
+    <meta name="author" content="Tinjer">
+    <meta charset="utf-8">
+</head>
+<body>
+  <h1>This is h1 title</h1>
+  <ul>
+    <li><a href="#article1">Article 1</a></li>
+    <li><a href="#article2">Article 2</a></li>
+    <li><a href="#article3">Article 3</a></li>
+    <li><a href="#article4">Article 4</a></li>
+  </ul>
+  <h2>This is h2 title</h2>
+
+
+  <div id="article1">
+    <h2>Article 1 元素</h2>
+    <p>The HTML &lt;p> element<p>
+    <p>The HTML &lt;p> element (or HTML Paragraph Element) represents a paragraph of text. Paragraphs are usually represented in visual media as blocks of text that are separated from adjacent blocks by vertical blank space and/or first-line indentation.</p>
+    <a href="https://developer.mozilla.org/">MDN<br/><img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MDN logo"></a>
+    <p>For &lt;img> element, 'alt' attribute defines the alternative text describing the image. Users will see this text displayed if the image URL is wrong, the image is not in one of the supported formats, or if the image is not yet downloaded.</p>
+  </div>
+
+  <div id="article2">
+    <h2>Article 2 图片元素</h2>
+    <div>
+      picture1<br/><img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MDN logo">
+    </div>
+    <div>
+      picture2<br/><img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MDN logo">
+    </div>
+    <div>
+      picture3<br/><img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MDN logo">
+    </div>
+    <div>
+      picture4<br/><img src="https://developer.cdn.mozilla.net/media/img/mdn-logo-sm.png" alt="MDN logo">
+    </div>
+  </div>
+
+  <div id="article3">
+    <h2>Article 3 表格</h2>
+    <ol>
+      <li><a href="https://www.google.com">Google</a></li>
+      <li><a href="https://www.google.com">Google</a></li>
+      <li><a href="https://www.google.com">Google</a></li>
+      <li><a href="https://www.google.com">Google</a></li>
+    </ol>
+    <p>Table</p>
+    <table border="1">
+      <tr>
+        <th>表头</th>
+        <th>表头</th>
+        <th>表头</th>
+      </tr>
+      <tr>
+        <td>内容1</td>
+        <td>内容2</td>
+        <td><a href="#article1">文章1</a></td>
+      </tr>
+      <tr>
+        <td>内容3</td>
+        <td>内容4</td>
+        <td><a href="#article2">文章2</a></td>
+      </tr>
+      <tr>
+        <td>内容5</td>
+        <td>内容6</td>
+        <td><a href="#article3">文章3</a></td>
+      </tr>
+      <tr>
+        <td>内容7</td>
+        <td>内容8</td>
+        <td><a href="#article4">文章4</a></td>
+      </tr>
+    </table>
+  </div>
+
+
+  <div id="article4">
+    <h2>Article 4 控件</h2>
+    <label for="_email">请输入邮箱地址：</label>
+    <input type="email" id="_email" placeholder="请输入邮箱地址" required/>
+    <p>邮件地址请按要求格式输入</p>
+
+    <label for="_password">请输入密码:</label>
+    <input type="password" id="_password" placeholder="请输入密码" required/>
+    <label for="_repassword">请重复输入密码:</label>
+    <input type="password" id="_repassword" placeholder="请重复输入密码" required/>
+    <p>密码请为6~16位英文或数字</p>
+
+    <label>性别:</label>
+    <input type="radio" id="_male"required>
+    <label for="_male">男</label>
+    <input type="radio" id="_female">
+    <label for="_female">女</label>
+
+    <label for="_city">城市:</label>
+    <select id="_city">
+      <option value="1">北京</option>
+      <option value ="2">上海</option>
+      <option value="3">广州</option>
+      <option value="4">深圳</option>
+    </select>
+    <label>爱好: </label>
+    <input type="checkbox" id="_sports">
+    <label for="_sports">运动</label>
+    <input type="checkbox" id="_art">
+    <label for="_art">艺术</label>
+    <input type="checkbox" id="_science">
+    <label for="_science">科学</label>
+    <label for="_intro">个人描述:</label>
+    <textarea rows="2", cols="20" id="_intro"></textarea>
+    <input type="submit" value="确认提交">
+  </div>
+
+  <div>
+    <p>版权所有&copy</p>
+  </div>
+
+</body>
+</html>
