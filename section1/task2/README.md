@@ -1,4 +1,3 @@
-
 ### Tips:
 * [box-shadow](http://www.cssmatic.com/box-shadow)
 * 使用&lt;figure>包装&lt;img>
@@ -12,6 +11,8 @@
 
 ##### &lt;p>在一个&lt;div>中，如何上下居中？
 * div中使用line-height=height
-> 
+>
 
 ### Code Review:
+* 先使用* {margin: 0; padding: 0;}去掉控件默认内外边距
+* 相同样式的选择器可以使用逗号连接

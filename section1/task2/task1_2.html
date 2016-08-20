@@ -6,10 +6,14 @@
     <meta charset="utf-8">
     <style>
 
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
       body {
         font-family:'Microsoft YaHei';
         background-color: lightgray;
-        margin: 0;
       }
 
       .article {
@@ -22,8 +26,8 @@
         box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
       }
 
-      figure {
-        margin: 0;
+      h2 {
+        margin-bottom: 8px;
       }
 
       figure figcaption {
@@ -41,28 +45,34 @@
         display: inline-block;
       }
 
+      ol {
+        margin-left: 18px;
+        margin-bottom: 10px;
+      }
+
+
       table {
         width: 100%;
         border-collapse: collapse;
-        border: 1px solid black;
       }
-      tr {
-        border: 1px solid black;
-      }
-      th {
-        color: white;
-        background-color: black;
-        border: 1px solid black;
-      }
-      td {
+
+      table tr, table tr td, table tr th {
         border: 1px solid black;
       }
 
+      /*行头特殊处理*/
+      table tr th {
+        color: white;
+        background-color: black;
+      }
+
+      /*最后行特殊处理*/
       .noBorderTD {
         border: 0;
       }
       #lastTR {
         background-color: gray;
+        border: 0;
       }
 
       label {
@@ -92,6 +102,12 @@
         margin-top: 8px;
         vertical-align: top;
       }
+      input:hover{
+	      font-size: 1.1em;
+      }
+      textarea:hover {
+        font-size: 1.1em;
+      }
 
       #inputDiv {
         margin-left: 15%;
@@ -120,7 +136,6 @@
           text-align:center;
           font-size:14px;
       }
-
     </style>
 
 </head>
@@ -219,7 +234,7 @@
         <input type="password" id="_repassword" placeholder="请重复输入密码" required/>
         <p class="tip">密码请为6~16位英文或数字</p>
 
-        <label>性别</label>
+        <label for="_male">性别</label>
         <input type="radio" id="_male" required>
         <label for="_male" class="widthAuto">男</label>
         <input type="radio" id="_female">
@@ -233,7 +248,7 @@
           <option value="4">深圳</option>
         </select>
         <br/>
-        <label>爱好</label>
+        <label for="_sports">爱好</label>
         <input type="checkbox" id="_sports">
         <label for="_sports" class="widthAuto">运动</label>
         <input type="checkbox" id="_art">

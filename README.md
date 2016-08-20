@@ -8,11 +8,10 @@
 #### 自测
 * 代码语法检查
 <br/>
-> 符合一个具体标准，使用工具如：<br/>[HTML Validators](https://validator.w3.org/#validate_by_upload) <br/>[CSS Validators](http://www.css-validator.org/#validate-by-input)
+> [HTML Validators](https://validator.w3.org/#validate_by_upload) <br/>[CSS Validators](http://www.css-validator.org/#validate-by-input)
 
 * 代码风格检查（统一风格）
-* Code Review（直接对比高分答案的代码进行改进和学习）
-
+* Code Review（对比高分答案的代码进行改进和学习）
 
 
 #### 文档和视频
