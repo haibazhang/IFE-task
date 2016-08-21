@@ -7,10 +7,19 @@
 
 
 ### 纯使用float来布局：
+* left视图设float: left;
+* 此时，mid视图的文字环绕left，设置mi视图的margin-left等于left视图的width即可；
+* right视图设float: right; 此时发现right在mid的下方；
+* 我们需要保证float的视图先进入父视图（修改HTML把id=right的div提前）。
+> ##### 三栏布局使用float，最终被分解为2个双栏布局：
+> * 第一个是[left column fixed, right fluid]
+> * 第二个是[right column fixed, left fluid]。
 
 
 ### 纯使用inline-block来布局：
-
+* 使用inline-block，元素就像inline元素那样不自动换行，所以不需要像float那样计算一个margin-left。关键是计算宽度。
+* 我们使用calc计算mid视图的宽度(父视图宽度-左边视图固定宽度-右边视图固定宽度)。
+* 为了方便计算，推荐使用box-sizing: border-box;
 
 
 ### Tips:
