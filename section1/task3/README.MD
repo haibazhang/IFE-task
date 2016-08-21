@@ -24,3 +24,7 @@
 
 ### Tips:
 * [How (Not) To Vertically Center Content](http://phrogz.net/CSS/vertical-align/index.html)
+
+
+### Code Review:
+* float布局去掉一个wrap视图
