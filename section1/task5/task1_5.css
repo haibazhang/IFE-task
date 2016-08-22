@@ -20,18 +20,16 @@ body {
   min-width: 240px;
 }
 
-
-
 #sidebar {
   box-sizing: border-box;
   float: right;
   width: 400px;
+
 }
 
 #main{
   box-sizing: border-box;
   margin-right: 400px;
-
 }
 
 h2 {
