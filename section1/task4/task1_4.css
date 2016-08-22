@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  /*resize: vertical;
+  overflow: auto;
+  position: relative;*/
+}
+
+#centerRect {
+  background-color: #ccc;
+  color: green;
+  width: 400px;
+  min-height: 40px;
+  position: absolute;
+  left: calc((100% - 400px)/2);
+  top: 50%;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+#leftTop {
+  background-color: #fc0;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 40px 0;
+}
+
+#rightBottom {
+  background-color: #fc0;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: calc(100% - 80px + 40px);
+  border-radius: 40px 0 0 0;
+}
