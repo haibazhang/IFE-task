@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Microsoft YaHei';
+  background-color: lightgray;
+}
+
+.article {
+  background-color: white;
+  box-sizing: border-box;
+  margin: 16px;
+  padding: 16px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+
+  min-width: 240px;
+}
+
+
+
+#sidebar {
+  box-sizing: border-box;
+  float: right;
+  width: 400px;
+}
+
+#main{
+  box-sizing: border-box;
+  margin-right: 400px;
+
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+figure figcaption {
+  text-align: center;
+}
+
+figure {
+  display: inline-block;
+}
+
+
+a img {
+  max-width: 400px;
+  width: 100%;
+}
+
+figure img {
+  max-width: 200px;
+  width: 100%;
+}
+
+.figureBox {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+ol {
+  margin-left: 18px;
+  margin-bottom: 10px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr, table tr td, table tr th {
+  border: 1px solid black;
+}
+
+/*行头特殊处理*/
+table tr th {
+  color: white;
+  background-color: black;
+}
+
+/*最后行特殊处理*/
+.noBorderTD {
+  border: 0;
+}
+#lastTR {
+  background-color: gray;
+  border: 0;
+}
+
+label {
+  box-sizing: border-box;
+  width: 120px;
+  text-align: right;
+  padding-right: 10px;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 8px;
+}
+.widthAuto {
+    width: auto;
+}
+
+.tip {
+  width: auto;
+  margin-left: 124px;
+  color: gray;
+  font-size: 12px;
+}
+
+input {
+  margin-top: 8px;
+}
+textarea {
+  margin-top: 8px;
+  vertical-align: top;
+  rows: 10;
+  cols: 30;
+}
+
+input:hover{
+  font-size: 1.1em;
+}
+textarea:hover {
+  font-size: 1.1em;
+}
+
+
+#submitButton {
+  margin-top: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 96%;
+  height: 40px;
+  border: 0;
+  border-radius: 6px;
+  font-size: 16px;
+  color: white;
+  background-color: dodgerblue;
+}
+
+footer {
+    width:100%;
+    height:60px;
+    line-height:60px;
+    background:black;
+    color:white;
+    text-align:center;
+    font-size:14px;
+}
+
+header {
+  width:100%;
+  background: black;
+}
+
+header #welcome {
+  color: white;
+  width: 90px;
+  height: 50px;
+  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 50px;
+  display: inline-block;
+}
+
+header #nav {
+  padding-right: 10px;
+  line-height: 50px;
+  float: right;
+}
+
+header .navElemnt {
+  box-sizing: border-box;
+  padding-right: 10px;
+  display: inline-block;
+}
+header .navElemnt a {
+  font-size: 15px;
+  color: white;
+}
