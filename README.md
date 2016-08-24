@@ -10,8 +10,9 @@
 <br/>
 > [HTML Validators](https://validator.w3.org/#validate_by_upload) <br/>[CSS Validators](http://www.css-validator.org/#validate-by-input)
 
-* 代码风格检查（统一风格）
+* [编码规范](https://github.com/ecomfe/spec)
 * Code Review（对比高分答案的代码进行改进和学习）
+
 
 
 #### 文档和视频
