@@ -10,9 +10,8 @@
 <br/>
 > [HTML Validators](https://validator.w3.org/#validate_by_upload) <br/>[CSS Validators](http://www.css-validator.org/#validate-by-input)
 
-* [编码规范](https://github.com/ecomfe/spec)
+* [百度的编码规范](https://github.com/ecomfe/spec) | [腾讯的编码规范](http://alloyteam.github.io/CodeGuide/)
 * Code Review（对比高分答案的代码进行改进和学习）
-
 
 
 #### 文档和视频
@@ -22,6 +21,6 @@
 * [box-shadow工具]([box-shadow](http://www.cssmatic.com/box-shadow))
 * [Google Font](https://www.google.com/fonts)
 * [LearnLayout 简单清晰的CSS布局教程](http://zh.learnlayout.com/)
-
+* [You Don't Know JS 非常棒](https://github.com/getify/You-Dont-Know-JS)
 
 #### 书籍

@@ -4,7 +4,5 @@
 * 不同字体下划线可以使用border-bottom;
 
 
-* google font 引入微软雅黑
-
 ### Code Review:
 [某小伙伴任务一汇总](http://lcina.me/Baidu_IFE/)
