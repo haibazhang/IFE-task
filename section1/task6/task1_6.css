@@ -5,18 +5,20 @@
 
 div {
   background-color: white;
-  border: 0.5px dashed black;
+  /*border: 0.5px dashed black;*/
   box-sizing: border-box;
 }
 
 body {
   font-family:'Microsoft YaHei';
   background-color: lightgray;
+  box-sizing: border-box;
 }
 
 body #main {
   width: 980px;
-  height: 1386px;
+  height: 1388px;
+  box-sizing: border-box;
   margin-left: calc((100% - 980px)/2);
 }
 
@@ -29,7 +31,8 @@ body #main {
   height: 64px;
 }
 .section1 {
-  height: 336px;
+  height: 302px;
+  position: relative;
 }
 
 .section2 {
@@ -44,17 +47,24 @@ body #main {
   height: 64px;
 }
 
+.weburl2 {
+  float: right;
+  color: #d45d5c;
+  font-size: 12px;
+}
+
 .date {
   float: right;
-  color: rgb(212, 93, 92);
-  margin-top: 40px;
+  color: #d45d5c;
+  margin-top: 44px;
+  font-size: 12px;
 }
 
 .logo {
   width: 110px;
   height: 64px;
-  background-color: rgb(212, 93, 92);
-  position: absolute;
+  background-color: #d45d5c;
+  position: relative;
 }
 .weburl {
   font-size: 12px;
@@ -241,6 +251,15 @@ body #main {
   color: #cc7680;
 }
 
+.what_zone {
+  margin-left: 5px;
+  margin-top: 20px;
+}
+.percentage {
+  font-style: italic;
+  color: #cc7680;
+}
+
 
 .column2 {
   float: right;
@@ -290,14 +309,27 @@ body #main {
   font-size: 12px;
 }
 
+.ife-zone p .firstChart {
+  float: left;
+  color: #f5e327;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 10px;
+  padding-right: 6px;
+  font-family: Georgia;
+
+}
+
 .ifeImg {
   float: right;
   width: 150px;
   height: 280px;
-  /*position: relative;
-  top: 40px;*/
+  display: inline-block;
+  line-height: 280px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 10px;
 }
-
 
 .cardImgDiv {
   width: 100%;
@@ -311,7 +343,7 @@ body #main {
 
 .imgMask {
   width: 100%;
-  height: 100px;
+  height: 64px;
   background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   /*margin-top: calc( 100% - 100px);*/
@@ -320,9 +352,157 @@ body #main {
   right:0px;
 }
 
+.column_line {
+  position: absolute;
+  left: 40px;
+  bottom: 8px;
+  width: 3px;
+  height: calc(64px - 16px);
+  background-color: #75b86b;
+}
+
+.maskfont1 {
+  position: absolute;
+  left : 56px;
+  top: 14px;
+  color: white;
+  font-size: 25px;
+}
+.maskfont2 {
+  position: absolute;
+  left : 165px;
+  top: 26px;
+  color: #75b86b;
+  font-size: 14px;
+  font-style: italic;
+}
+
+
 .card {
   margin-top: 30px;
   width: 459px;
-  height: 318px;
+  height: 328px;
   background-color: rgb(238, 237, 214);
+  position: relative;
+}
+
+.card .row {
+  position: absolute;
+  left: 30px;
+  width: 400px;
+  height: 24px;
+  font-size: 15px;
+  background-color: transparent;
+}
+.card .row1 {
+  top: 26px;
+}
+.card .row2 {
+  top: calc(26px + 42px);
+}
+.card .row3 {
+  top: calc(26px + 84px);
+}
+
+.trangle_text {
+  display: inline-block;
+}
+.trangle_tail_text {
+  font-size: 9px;
+  font-style: italic;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #10456b;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.last_row {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 170px;
+  background-color: transparent;
+}
+
+.redblock {
+  float: left;
+  width: 55%;
+  height: 100%;
+  background-color: #d45d5c;
+  position: relative;
+}
+
+.redblock_zero {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 60px;
+  height: calc(100% - 2 * 10px);
+  color: white;
+  font-size: 108px;
+  background-color: transparent;
+  text-align: center;
+}
+.redblocK_seprator {
+  position: absolute;
+  left: 76px;
+  top: 40px;
+  width: 2px;
+  height: calc(100% - 2 * 40px);
+  background-color: white;
+}
+.redblock_detail {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  height: calc(100% - 2 * 45px);
+  width: 162px;
+  background-color: transparent;
+}
+
+.redblock_text {
+  background-color: transparent;
+  margin-top: 20px;
+  margin-left: calc( 100% - 184px );
+  position: relative;
+}
+
+.detail_line1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.detail_line2 {
+  color: white;
+  font-size: 11px;
+}
+.mark {
+  font: 72px "黑体";
+  color: #d45d5c;
+}
+.mark_begin {
+  float: left;
+  margin: -11px 10px 0 -45px;
+  height: 30px;
+}
+
+.mark_end {
+  position: absolute;
+  right: -16px;
+  bottom: -56px;
+}
+
+
+.helloworld {
+  font-style: italic;
+  font-size: 14px;
 }
