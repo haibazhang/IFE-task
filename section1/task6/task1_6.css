@@ -1,48 +1,49 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 div {
-  background-color: white;
-  /*border: 0.5px dashed black;*/
-  box-sizing: border-box;
+    background-color: white;
+    /*border: 0.5px dashed black;*/
+    box-sizing: border-box;
 }
 
 body {
-  font-family:'Microsoft YaHei';
-  background-color: lightgray;
-  box-sizing: border-box;
+    font-family:'Microsoft YaHei';
+    background-color: lightgray;
+    box-sizing: border-box;
 }
 
 body #main {
-  width: 980px;
-  height: 1388px;
-  box-sizing: border-box;
-  margin-left: calc((100% - 980px)/2);
+    width: 980px;
+    height: 1388px;
+    box-sizing: border-box;
+    margin-left: calc((100% - 980px)/2);
 }
 
 .section {
-  margin-left: calc((100% - 892px)/2);
-  margin-right: calc((100% - 892px)/2);
+    margin-left: calc((100% - 892px)/2);
+    margin-right: calc((100% - 892px)/2);
 }
 
 .header {
-  height: 64px;
+    height: 64px;
 }
 .section1 {
-  height: 302px;
-  position: relative;
+    height: 302px;
+    position: relative;
 }
 
 .section2 {
-  box-sizing: border-box;
-  padding-top: 10px;
-  height: 250px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    height: 250px;
 }
 .section3 {
   height: calc(1386px - 336px - 250px - 128px);
 }
+
 .footer {
   height: 64px;
 }

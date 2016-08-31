@@ -10,9 +10,8 @@
 <br/>
 > [HTML Validators](https://validator.w3.org/#validate_by_upload) <br/>[CSS Validators](http://www.css-validator.org/#validate-by-input)
 
-* [百度的编码规范](https://github.com/ecomfe/spec) | [腾讯的编码规范](http://alloyteam.github.io/CodeGuide/)
+* [腾讯的编码规范](http://alloyteam.github.io/CodeGuide/) | [百度的编码规范](https://github.com/ecomfe/spec)
 * Code Review（对比高分答案的代码进行改进和学习）
-
 
 #### 文档和视频
 * [MDN 权威文档](https://developer.mozilla.org/en-US/search)
